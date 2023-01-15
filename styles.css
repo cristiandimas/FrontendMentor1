@@ -79,8 +79,12 @@ body{
   }
   .previous__price{
     color: var(--Darkgrayishblue);
-    font-family: 'Montserrat';
-    text-decoration:line-through ;
+    font-family: 'Montserrat';    
+  }
+  .ocultovisual{
+    font-size: 1px;
+    max-width: 2px;
+    opacity: 0;
   }
 
   .card__btn{
